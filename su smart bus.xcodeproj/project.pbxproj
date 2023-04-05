@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844275FF29DAD4B00031E8CD /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844275FE29DAD4B00031E8CD /* MainTabView.swift */; };
+		845F22B829DB4AC800E99399 /* InfobusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F22B729DB4AC800E99399 /* InfobusView.swift */; };
+		845F22BC29DB55E200E99399 /* Listbus2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F22BB29DB55E200E99399 /* Listbus2View.swift */; };
+		845F22C029DC147F00E99399 /* BusStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F22BF29DC147F00E99399 /* BusStatusView.swift */; };
+		845F22C229DC19EC00E99399 /* ListStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F22C129DC19EC00E99399 /* ListStatusView.swift */; };
+		8465170229CD9676007EF126 /* su_smart_busApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465170129CD9676007EF126 /* su_smart_busApp.swift */; };
+		8465170429CD9676007EF126 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465170329CD9676007EF126 /* ContentView.swift */; };
+		8465170929CD9677007EF126 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8465170829CD9677007EF126 /* Preview Assets.xcassets */; };
+		8465171329CD9677007EF126 /* su_smart_busTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465171229CD9677007EF126 /* su_smart_busTests.swift */; };
+		8465171D29CD9677007EF126 /* su_smart_busUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465171C29CD9677007EF126 /* su_smart_busUITests.swift */; };
+		8465171F29CD9677007EF126 /* su_smart_busUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465171E29CD9677007EF126 /* su_smart_busUITestsLaunchTests.swift */; };
+		8465174E29CEB130007EF126 /* FC Friday Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8465174D29CEB130007EF126 /* FC Friday Medium.ttf */; };
+		8465175A29CF801D007EF126 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465175929CF801D007EF126 /* SplashView.swift */; };
+		848AE9A929D59E7300CE3F30 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE9A829D59E7300CE3F30 /* ListView.swift */; };
+		848AE9AD29D6B1B400CE3F30 /* ListbusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE9AC29D6B1B400CE3F30 /* ListbusView.swift */; };
+		84A58A0D29DDA77500EF3846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A58A0C29DDA77500EF3846 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8465170F29CD9677007EF126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846516F629CD9676007EF126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846516FD29CD9676007EF126;
+			remoteInfo = "su smart bus";
+		};
+		8465171929CD9677007EF126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846516F629CD9676007EF126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846516FD29CD9676007EF126;
+			remoteInfo = "su smart bus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844275FE29DAD4B00031E8CD /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		845F22B729DB4AC800E99399 /* InfobusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfobusView.swift; sourceTree = "<group>"; };
+		845F22BB29DB55E200E99399 /* Listbus2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listbus2View.swift; sourceTree = "<group>"; };
+		845F22BF29DC147F00E99399 /* BusStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStatusView.swift; sourceTree = "<group>"; };
+		845F22C129DC19EC00E99399 /* ListStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStatusView.swift; sourceTree = "<group>"; };
+		846516FE29CD9676007EF126 /* su smart bus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "su smart bus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8465170129CD9676007EF126 /* su_smart_busApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = su_smart_busApp.swift; sourceTree = "<group>"; };
+		8465170329CD9676007EF126 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8465170829CD9677007EF126 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8465170E29CD9677007EF126 /* su smart busTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "su smart busTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8465171229CD9677007EF126 /* su_smart_busTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = su_smart_busTests.swift; sourceTree = "<group>"; };
+		8465171829CD9677007EF126 /* su smart busUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "su smart busUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8465171C29CD9677007EF126 /* su_smart_busUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = su_smart_busUITests.swift; sourceTree = "<group>"; };
+		8465171E29CD9677007EF126 /* su_smart_busUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = su_smart_busUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8465173729CEA3FB007EF126 /* su-smart-bus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "su-smart-bus-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8465174D29CEB130007EF126 /* FC Friday Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FC Friday Medium.ttf"; sourceTree = "<group>"; };
+		8465175929CF801D007EF126 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		848AE9A829D59E7300CE3F30 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = ../ListView.swift; sourceTree = "<group>"; };
+		848AE9AC29D6B1B400CE3F30 /* ListbusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListbusView.swift; sourceTree = "<group>"; };
+		84A58A0C29DDA77500EF3846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/AppIcons-5/Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846516FB29CD9676007EF126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8465170B29CD9677007EF126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8465171529CD9677007EF126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846516F529CD9676007EF126 = {
+			isa = PBXGroup;
+			children = (
+				8465170029CD9676007EF126 /* su smart bus */,
+				8465171B29CD9677007EF126 /* su smart busUITests */,
+				846516FF29CD9676007EF126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846516FF29CD9676007EF126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846516FE29CD9676007EF126 /* su smart bus.app */,
+				8465170E29CD9677007EF126 /* su smart busTests.xctest */,
+				8465171829CD9677007EF126 /* su smart busUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8465170029CD9676007EF126 /* su smart bus */ = {
+			isa = PBXGroup;
+			children = (
+				8465173729CEA3FB007EF126 /* su-smart-bus-Info.plist */,
+				8465173029CEA247007EF126 /* Fonts */,
+				8465172D29CDBB1D007EF126 /* View */,
+				8465170129CD9676007EF126 /* su_smart_busApp.swift */,
+				8465170329CD9676007EF126 /* ContentView.swift */,
+				8465170729CD9677007EF126 /* Preview Content */,
+				8465171129CD9677007EF126 /* su smart busTests */,
+			);
+			path = "su smart bus";
+			sourceTree = "<group>";
+		};
+		8465170729CD9677007EF126 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8465170829CD9677007EF126 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8465171129CD9677007EF126 /* su smart busTests */ = {
+			isa = PBXGroup;
+			children = (
+				8465171229CD9677007EF126 /* su_smart_busTests.swift */,
+			);
+			path = "su smart busTests";
+			sourceTree = "<group>";
+		};
+		8465171B29CD9677007EF126 /* su smart busUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8465171C29CD9677007EF126 /* su_smart_busUITests.swift */,
+				8465171E29CD9677007EF126 /* su_smart_busUITestsLaunchTests.swift */,
+			);
+			path = "su smart busUITests";
+			sourceTree = "<group>";
+		};
+		8465172D29CDBB1D007EF126 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				844275FE29DAD4B00031E8CD /* MainTabView.swift */,
+				8465175929CF801D007EF126 /* SplashView.swift */,
+				848AE9A829D59E7300CE3F30 /* ListView.swift */,
+				845F22BF29DC147F00E99399 /* BusStatusView.swift */,
+				845F22C129DC19EC00E99399 /* ListStatusView.swift */,
+				848AE9AC29D6B1B400CE3F30 /* ListbusView.swift */,
+				845F22BB29DB55E200E99399 /* Listbus2View.swift */,
+				845F22B729DB4AC800E99399 /* InfobusView.swift */,
+				84A58A0C29DDA77500EF3846 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8465173029CEA247007EF126 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8465174D29CEB130007EF126 /* FC Friday Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846516FD29CD9676007EF126 /* su smart bus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8465172229CD9677007EF126 /* Build configuration list for PBXNativeTarget "su smart bus" */;
+			buildPhases = (
+				846516FA29CD9676007EF126 /* Sources */,
+				846516FB29CD9676007EF126 /* Frameworks */,
+				846516FC29CD9676007EF126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "su smart bus";
+			productName = "su smart bus";
+			productReference = 846516FE29CD9676007EF126 /* su smart bus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8465170D29CD9677007EF126 /* su smart busTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8465172529CD9677007EF126 /* Build configuration list for PBXNativeTarget "su smart busTests" */;
+			buildPhases = (
+				8465170A29CD9677007EF126 /* Sources */,
+				8465170B29CD9677007EF126 /* Frameworks */,
+				8465170C29CD9677007EF126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8465171029CD9677007EF126 /* PBXTargetDependency */,
+			);
+			name = "su smart busTests";
+			productName = "su smart busTests";
+			productReference = 8465170E29CD9677007EF126 /* su smart busTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8465171729CD9677007EF126 /* su smart busUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8465172829CD9677007EF126 /* Build configuration list for PBXNativeTarget "su smart busUITests" */;
+			buildPhases = (
+				8465171429CD9677007EF126 /* Sources */,
+				8465171529CD9677007EF126 /* Frameworks */,
+				8465171629CD9677007EF126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8465171A29CD9677007EF126 /* PBXTargetDependency */,
+			);
+			name = "su smart busUITests";
+			productName = "su smart busUITests";
+			productReference = 8465171829CD9677007EF126 /* su smart busUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846516F629CD9676007EF126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					846516FD29CD9676007EF126 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8465170D29CD9677007EF126 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 846516FD29CD9676007EF126;
+					};
+					8465171729CD9677007EF126 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 846516FD29CD9676007EF126;
+					};
+				};
+			};
+			buildConfigurationList = 846516F929CD9676007EF126 /* Build configuration list for PBXProject "su smart bus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846516F529CD9676007EF126;
+			productRefGroup = 846516FF29CD9676007EF126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846516FD29CD9676007EF126 /* su smart bus */,
+				8465170D29CD9677007EF126 /* su smart busTests */,
+				8465171729CD9677007EF126 /* su smart busUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846516FC29CD9676007EF126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8465174E29CEB130007EF126 /* FC Friday Medium.ttf in Resources */,
+				84A58A0D29DDA77500EF3846 /* Assets.xcassets in Resources */,
+				8465170929CD9677007EF126 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8465170C29CD9677007EF126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8465171629CD9677007EF126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846516FA29CD9676007EF126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845F22BC29DB55E200E99399 /* Listbus2View.swift in Sources */,
+				845F22C229DC19EC00E99399 /* ListStatusView.swift in Sources */,
+				848AE9A929D59E7300CE3F30 /* ListView.swift in Sources */,
+				8465170429CD9676007EF126 /* ContentView.swift in Sources */,
+				848AE9AD29D6B1B400CE3F30 /* ListbusView.swift in Sources */,
+				844275FF29DAD4B00031E8CD /* MainTabView.swift in Sources */,
+				845F22B829DB4AC800E99399 /* InfobusView.swift in Sources */,
+				845F22C029DC147F00E99399 /* BusStatusView.swift in Sources */,
+				8465170229CD9676007EF126 /* su_smart_busApp.swift in Sources */,
+				8465175A29CF801D007EF126 /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8465170A29CD9677007EF126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8465171329CD9677007EF126 /* su_smart_busTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8465171429CD9677007EF126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8465171D29CD9677007EF126 /* su_smart_busUITests.swift in Sources */,
+				8465171F29CD9677007EF126 /* su_smart_busUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8465171029CD9677007EF126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846516FD29CD9676007EF126 /* su smart bus */;
+			targetProxy = 8465170F29CD9677007EF126 /* PBXContainerItemProxy */;
+		};
+		8465171A29CD9677007EF126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846516FD29CD9676007EF126 /* su smart bus */;
+			targetProxy = 8465171929CD9677007EF126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8465172029CD9677007EF126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8465172129CD9677007EF126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8465172329CD9677007EF126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"su smart bus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "su-smart-bus-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiratchaya-silpsupa.su-smart-bus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8465172429CD9677007EF126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"su smart bus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "su-smart-bus-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiratchaya-silpsupa.su-smart-bus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8465172629CD9677007EF126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiratchaya-silpsupa.su-smart-busTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/su smart bus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/su smart bus";
+			};
+			name = Debug;
+		};
+		8465172729CD9677007EF126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiratchaya-silpsupa.su-smart-busTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/su smart bus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/su smart bus";
+			};
+			name = Release;
+		};
+		8465172929CD9677007EF126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiratchaya-silpsupa.su-smart-busUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "su smart bus";
+			};
+			name = Debug;
+		};
+		8465172A29CD9677007EF126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiratchaya-silpsupa.su-smart-busUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "su smart bus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846516F929CD9676007EF126 /* Build configuration list for PBXProject "su smart bus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8465172029CD9677007EF126 /* Debug */,
+				8465172129CD9677007EF126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8465172229CD9677007EF126 /* Build configuration list for PBXNativeTarget "su smart bus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8465172329CD9677007EF126 /* Debug */,
+				8465172429CD9677007EF126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8465172529CD9677007EF126 /* Build configuration list for PBXNativeTarget "su smart busTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8465172629CD9677007EF126 /* Debug */,
+				8465172729CD9677007EF126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8465172829CD9677007EF126 /* Build configuration list for PBXNativeTarget "su smart busUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8465172929CD9677007EF126 /* Debug */,
+				8465172A29CD9677007EF126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846516F629CD9676007EF126 /* Project object */;
+}
